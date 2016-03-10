@@ -23,9 +23,21 @@
 <h:body>
 
 	<header class="am-topbar">
-		<a href="#" class="am-toggle  js-toggle"><i class="fa  fa-bars"></i></a>
+		<a href="#" class="am-toggle js-toggle"><i class="fa fa-bars"></i></a>
 
-		<h:graphicImage library="aftermidnight" name="img/logo.png" />		
+		<h:graphicImage library="aftermidnight" name="img/logo.png" />
+		
+		<div class="am-userinfo">
+			
+			<i class="fa fa-ellipsis-v  am-dropdown js-userinfo-dropdown"></i>
+			
+			<div class="am-userinfo-navbar js-userinfo-navbar is-toggled">
+				<div class="am-user-avatar js-userinfo-dropdown"></div>
+				<span class="am-username">Username</span>
+				<ui:include src="UserinfoMenu.xhtml" />
+			</div>
+						
+		</div>	
 	</header>
 	
 	<aside class="am-sidebar  js-sidebar">
