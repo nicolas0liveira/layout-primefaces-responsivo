@@ -54,23 +54,17 @@
 	padding:10px 12px 10px 12px;
 	
 	font-size: x-large;
-	border-radius: 4px;
-	box-shadow:0px 0px 4px #0E84C2;
-	background-color:#2EA4E2;
-	border:solid 1px #0E84C2;
 	color:#fff;
 }
 
 .am-userinfo > .am-dropdown:hover{
 	cursor:pointer;
-	background-color: #0E84C2;
-	border:solid 1px #2EA4E2;
+	color:#FFFF00;
 }
 
 .am-userinfo > .am-dropdown.selected{
 	cursor:pointer;
-	background-color: #0E84C2;
-	border:solid 1px #2EA4E2;
+	color:#FFFF00;
 }
 
 .am-userinfo > .am-userinfo-navbar{
